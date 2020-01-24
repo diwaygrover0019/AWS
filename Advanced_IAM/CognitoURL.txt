@@ -1,0 +1,7 @@
+<Your Cognito Domain>/login?response_type=token&client_id=<Your App Client ID>&redirect_uri=https://example.com
+
+https://acgtest-diway.auth.us-east-1.amazoncognito.com/login?response_type=token&client_id=clientId&redirect_uri=https://example.com
+
+After successful sign-up, we see a JWT token generated in the URL
+https://example.com/#id_token=sometoken&expires_in=3600&token_type=Bearer
+
